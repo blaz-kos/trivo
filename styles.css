@@ -57,7 +57,7 @@ a:hover {
 /* Make sure content is not too wide on big screens */
 @media (min-width: 1200px) {
     .article-container {
-        max-width: 600px; /* Prevents text from being too wide on large screens */
+        max-width: 800px; /* Prevents text from being too wide on large screens */
     }
 }
 

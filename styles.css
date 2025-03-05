@@ -5,18 +5,17 @@
     box-sizing: border-box;
 }
 
-/* Center the article container */
+/* Proper body styling (No flexbox!) */
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f5f5f5;
     color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    display: block; /* Ensure text flows normally */
 }
 
-/* Main container for the article */
+/* Center and structure article */
 .article-container {
     max-width: 700px;
     width: 90%;
@@ -26,27 +25,28 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     line-height: 1.8; /* Ensures readable spacing */
-    text-align: justify; /* Keeps text structured */
-    overflow-wrap: break-word; /* Ensures long words wrap properly */
+    text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word; /* Ensures long words don't break layout */
 }
 
-/* Styling for headers */
+/* Headings */
 h1, h2 {
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Paragraph styling */
+/* Paragraphs */
 p {
     font-size: 1.1rem;
     line-height: 1.8;
     text-align: justify;
     margin-bottom: 20px;
-    word-break: normal; /* Prevents unwanted word splitting */
+    word-break: normal; /* Prevents breaking words incorrectly */
 }
 
-/* Ensure links look normal */
+/* Links */
 a {
     color: #007bff;
     text-decoration: none;
@@ -56,7 +56,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Fix layout issues for small screens */
+/* Fix layout for small screens */
 @media (max-width: 768px) {
     .article-container {
         margin: 20px;

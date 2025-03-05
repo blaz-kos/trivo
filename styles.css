@@ -7,8 +7,8 @@
 
 /* Center and structure the article container */
 .article-container {
-    max-width: 800px; /* Ensures text is not too wide */
-    width: 80%; /* Adjusts for smaller screens */
+    max-width: 900px; /* Ensures text is not too wide */
+    width: 85%; /* Adjusts for smaller screens */
     background: white;
     padding: 20px;
     margin: 40px auto;
@@ -59,6 +59,16 @@ a:hover {
     .article-container {
         max-width: 600px; /* Prevents text from being too wide on large screens */
     }
+}
+
+.article-container ul, 
+.article-container ol {
+    margin-left: 20px; /* Indents lists */
+    padding-left: 20px; /* Ensures proper spacing */
+}
+
+.article-container li {
+    margin-bottom: 8px; /* Adds space between list items */
 }
 
 /* Adjust for smaller screens */

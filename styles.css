@@ -55,29 +55,7 @@ a:hover {
 }
 
 /* Style the Nazaj link */
-.back-button {
-    display: block;
-    text-align: left;  /* Align to the left */
-    margin: 0 auto 10px auto;  /* Places it just above the article container */
-    font-size: 1rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: #007bff;
-    padding: 10px 15px;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 1000px; /* Aligns width with the article */
-}
 
-/* Optional: Make it look like a button */
-.back-button:hover {
-    text-decoration: underline;
-}
-
-
-.back-button:hover {
-    text-decoration: underline;
-}
 
 /* Make sure content is not too wide on big screens */
 @media (min-width: 1200px) {
